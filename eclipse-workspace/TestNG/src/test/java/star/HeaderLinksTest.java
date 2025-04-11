@@ -17,7 +17,7 @@ public class HeaderLinksTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://yourwebsite.com"); // Replace with your website's URL
+        driver.get("https://starfurniture.com/?srsltid=AfmBOorhEGP9pcLJ5x1tM8rXzCF2LUi6812bU8fsXbPbu77BWKTt8ore"); // Replace with your website's URL
     }
 
     @Test
