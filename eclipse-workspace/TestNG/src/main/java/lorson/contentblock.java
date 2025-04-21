@@ -11,8 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class contentblock {
 	WebDriver driver;
     WebDriverWait wait;
@@ -20,7 +18,7 @@ public class contentblock {
     @BeforeClass
     public void setup() {
         // Set up WebDriver
-        WebDriverManager.chromedriver().setup();
+//         bn   WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
